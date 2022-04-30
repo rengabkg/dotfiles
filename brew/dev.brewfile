@@ -1,0 +1,4 @@
+brew "ripgrep"
+
+cask "docker"
+cask "visual-studio-code"

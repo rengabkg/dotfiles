@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo "===== Installing packages ====="
+{{ if eq .chezmoi.os "darwin" }}
+# {{ include "brew/common.brewfile" | sha256sum }}
+# {{ include "brew/dev.brewfile" | sha256sum }}
+# {{ include "brew/misc.brewfile" | sha256sum }}
+echo "Using Homebrew as package manager."
+
+declare -a brewfiles_to_install=("common" "dev" "misc")
+for i in "${brewfiles_to_install[@]}"
+do
+   echo "Installing $i.brewfile"
+   brew bundle install --no-lock --file "$(chezmoi source-path)/brew/$i.brewfile"
+done
+{{ end }}

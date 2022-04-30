@@ -1,0 +1,4 @@
+["{{- .fontfolder -}}/iosevka-term-curly-slab"]
+    type = "archive"
+    url = "https://github.com/be5invis/Iosevka/releases/download/v{{- .version -}}/ttf-iosevka-term-curly-slab-{{- .version -}}.zip"
+    exact = true
