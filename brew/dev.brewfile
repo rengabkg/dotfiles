@@ -1,4 +1,6 @@
+brew "pandoc"               # For managing resume and CV with markdown.
 brew "ripgrep"
 
 cask "docker"
 cask "visual-studio-code"
+cask "wkhtmltopdf"          # For converting HTMLs to PDFs from the terminal.
