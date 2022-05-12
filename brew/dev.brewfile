@@ -1,3 +1,4 @@
+brew "act"                  # For testing Github actions locally.
 brew "pandoc"               # For managing resume and CV with markdown.
 brew "ripgrep"
 
