@@ -7,8 +7,11 @@ cask "discord"
 cask "dozer"                    # For hiding menu bar items.
 cask "google-chrome"            # Backup browser.
 cask "maccy"                    # Clipboard manager.
+cask "rectangle"                # Window snapping.
+cask "spotify"
 cask "stats"                    # System stats on the menu bar.
 cask "transmission"             # Torrent client.
+cask "whatsapp"
 
 tap "homebrew/cask-drivers"
 cask "logitech-options"         # For MX Master 3 mouse.
