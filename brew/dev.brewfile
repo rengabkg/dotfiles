@@ -3,6 +3,8 @@ brew "goenv", args: ['HEAD']    # For managing go installations.
 brew "gradle"
 brew "jenv"                     # For managing multiple Java installations.
 brew "pandoc"                   # For managing resume and CV with markdown.
+brew "pyenv"                    # For managing python installations.
+brew "pyenv-virtualenv"
 brew "ripgrep"
 
 cask "docker"
