@@ -8,4 +8,5 @@ cask "kitty"
 cask "obsidian"     # Second brain.
 cask "protonvpn"
 cask "slack"
+cask "tomatobar"    # Pomodoro timer.
 cask "zoom"
