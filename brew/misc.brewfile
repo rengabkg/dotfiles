@@ -1,4 +1,3 @@
-brew "btop"
 brew "htop"
 brew "neofetch"
 
