@@ -12,6 +12,10 @@ echo "Using Homebrew as package manager."
 BREWFILE_NAME="laptop"
 echo "Installing from $BREWFILE_NAME.brewfile"
 brew bundle install --no-lock --file "$(chezmoi source-path)/brew/$BREWFILE_NAME.brewfile"
+{{ else if eq $computerName "Tyche" }}
+BREWFILE_NAME="work"
+echo "Installing from $BREWFILE_NAME.brewfile"
+brew bundle install --no-lock --file "$(chezmoi source-path)/brew/$BREWFILE_NAME.brewfile"
 {{ end }}
 {{ end }}
 {{ end }}
