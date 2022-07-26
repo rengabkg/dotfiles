@@ -5,6 +5,7 @@ set -euo pipefail
 echo "===== Installing packages ====="
 {{ if eq .chezmoi.os "darwin" }}
 # {{ include "brew/laptop.brewfile" | sha256sum }}
+# {{ include "brew/work.brewfile" | sha256sum }}
 echo "Using Homebrew as package manager."
 
 {{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
