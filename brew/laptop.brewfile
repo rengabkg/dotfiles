@@ -1,0 +1,46 @@
+# Brew packages and casks for personal Mac.
+
+brew "act"                      # For testing Github actions locally.
+brew "fzf"                      # Fuzzy search in the terminal.
+brew "goenv", args: ['HEAD']    # For managing go installations.
+brew "gpg"
+brew "gradle"
+brew "htop"
+brew "jenv"                     # For managing multiple Java installations.
+brew "neofetch"
+brew "pandoc"                   # For managing resume and CV with markdown.
+brew "pyenv"                    # For managing python installations.
+brew "pyenv-virtualenv"
+brew "ripgrep"
+brew "wget"
+
+cask "bitwarden"
+cask "cheatsheet"
+cask "discord"
+cask "docker"
+cask "dozer"                    # For hiding menu bar items.
+cask "firefox"
+cask "google-chrome"            # Backup browser.
+cask "intellij-idea-ce"
+cask "kitty"
+cask "maccy"                    # Clipboard manager.
+cask "obsidian"                 # Second brain.
+cask "protonvpn"
+cask "rectangle"                # Window snapping.
+cask "slack"
+cask "spotify"
+cask "stats"                    # System stats on the menu bar.
+cask "tomatobar"                # Pomodoro timer.
+cask "transmission"             # Torrent client.
+cask "visual-studio-code"
+cask "whatsapp"
+cask "wkhtmltopdf"              # For HTML to PDF conversion from the terminal.
+cask "zoom"
+
+# Java installations.
+tap "adoptopenjdk/openjdk"
+cask "adoptopenjdk8"
+
+# For MX Master 3 mouse.
+tap "homebrew/cask-drivers"
+cask "logitech-options"
