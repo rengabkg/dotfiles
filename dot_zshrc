@@ -29,3 +29,5 @@ eval "$(goenv init -)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PATH=$HOME/.cargo/bin:$PATH
+
+alias ssh="kitty +kitten ssh"
