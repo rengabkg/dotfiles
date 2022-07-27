@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+{{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
+{{ if eq $computerName "Tyche" }}
+npm install --global yarn
+{{ end }}
+{{ end }}

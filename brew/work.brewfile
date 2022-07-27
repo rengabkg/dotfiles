@@ -9,7 +9,9 @@ brew "helm"
 brew "htop"
 brew "jenv"                     # For managing multiple Java installations.
 brew "neofetch"
-brew "node@14"
+brew "node@14", link: true
+brew "protobuf@3", link: true
+brew "protoc-gen-grpc-web"
 brew "pyenv"                    # For managing python installations.
 brew "pyenv-virtualenv"
 brew "ripgrep"
