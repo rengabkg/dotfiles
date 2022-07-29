@@ -42,3 +42,7 @@ cask "adoptopenjdk11"
 # For MX Master 3 mouse.
 tap "homebrew/cask-drivers"
 cask "logitech-options"
+
+# Buf for protocol buffer.
+tap "bufbuild/buf"
+brew "buf"
