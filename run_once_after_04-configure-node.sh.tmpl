@@ -3,7 +3,11 @@
 set -euo pipefail
 
 {{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
-{{ if eq $computerName "Tyche" }}
+{{ if eq $computerName "Athena" }}
+brew link --overwrite node@16
+npm install --location=global firebase-tools
+{{ else if eq $computerName "Tyche" }}
+brew link --overwrite node@14
 npm install --global yarn
 {{ end }}
 {{ end }}

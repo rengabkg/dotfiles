@@ -8,7 +8,9 @@ brew "gradle"
 brew "htop"
 brew "jenv"                     # For managing multiple Java installations.
 brew "neofetch"
+brew "node@16", link: true
 brew "pandoc"                   # For managing resume and CV with markdown.
+brew "protobuf@3", link: true
 brew "pyenv"                    # For managing python installations.
 brew "pyenv-virtualenv"
 brew "ripgrep"
@@ -20,6 +22,7 @@ cask "discord"
 cask "docker"
 cask "dozer"                    # For hiding menu bar items.
 cask "firefox"
+cask "flutter"
 cask "google-chrome"            # Backup browser.
 cask "intellij-idea-ce"
 cask "kitty"
@@ -44,3 +47,7 @@ cask "adoptopenjdk8"
 # For MX Master 3 mouse.
 tap "homebrew/cask-drivers"
 cask "logitech-options"
+
+# Buf for protocol buffer.
+tap "bufbuild/buf"
+brew "buf"
