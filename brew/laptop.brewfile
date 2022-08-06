@@ -10,7 +10,7 @@ brew "jenv"                     # For managing multiple Java installations.
 brew "neofetch"
 brew "node@16", link: true
 brew "pandoc"                   # For managing resume and CV with markdown.
-brew "protobuf@3", link: true
+brew "protobuf"
 brew "pyenv"                    # For managing python installations.
 brew "pyenv-virtualenv"
 brew "ripgrep"
