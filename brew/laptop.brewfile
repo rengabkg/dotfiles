@@ -43,6 +43,7 @@ cask "zoom"
 # Java installations.
 tap "adoptopenjdk/openjdk"
 cask "adoptopenjdk8"
+cask "adoptopenjdk11"           # For firebase tools.
 
 # For MX Master 3 mouse.
 tap "homebrew/cask-drivers"
