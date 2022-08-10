@@ -30,6 +30,7 @@ cask "maccy"                    # Clipboard manager.
 cask "obsidian"                 # Second brain.
 cask "protonvpn"
 cask "rectangle"                # Window snapping.
+cask "signal"
 cask "slack"
 cask "spotify"
 cask "stats"                    # System stats on the menu bar.
