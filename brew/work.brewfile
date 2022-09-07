@@ -18,6 +18,7 @@ brew "ripgrep"
 brew "terraform"
 brew "wget"
 
+cask "bloomrpc"
 cask "cheatsheet"
 cask "clickup"
 cask "docker"
