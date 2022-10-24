@@ -21,6 +21,7 @@ plugins=(
     kubectl
     rust
     nvm
+    gcloud
 )
 
 source $ZSH/oh-my-zsh.sh

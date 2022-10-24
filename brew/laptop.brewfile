@@ -23,7 +23,8 @@ cask "docker"
 cask "dozer"                    # For hiding menu bar items.
 cask "firefox"
 cask "flutter"
-cask "google-chrome"            # Backup browser.
+cask "google-chrome"            # For development.
+cask "google-cloud-sdk"
 cask "intellij-idea-ce"
 cask "kitty"
 cask "maccy"                    # Clipboard manager.
