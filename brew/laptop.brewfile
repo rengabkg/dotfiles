@@ -2,7 +2,6 @@
 # This file will be split if I have mutiple macs in the future
 # for different use cases.
 
-brew "act"                      # For testing Github actions locally.
 brew "fzf"                      # Fuzzy search in the terminal.
 brew "goenv", args: ['HEAD']    # For managing go installations.
 brew "gpg"
@@ -32,7 +31,6 @@ cask "maccy"                    # Clipboard manager.
 cask "obsidian"                 # Second brain.
 cask "protonvpn"
 cask "rectangle"                # Window snapping.
-cask "signal"
 cask "slack"
 cask "spotify"
 cask "stats"                    # System stats on the menu bar.
