@@ -5,16 +5,11 @@ set -euo pipefail
 echo "===== Installing packages ====="
 {{ if eq .chezmoi.os "darwin" }}
 # {{ include "brew/laptop.brewfile" | sha256sum }}
-# {{ include "brew/work.brewfile" | sha256sum }}
 echo "Using Homebrew as package manager."
 
 {{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
 {{ if eq $computerName "Athena" }}
 BREWFILE_NAME="laptop"
-echo "Installing from $BREWFILE_NAME.brewfile"
-brew bundle install --no-lock --file "$(chezmoi source-path)/brew/$BREWFILE_NAME.brewfile"
-{{ else if eq $computerName "Tyche" }}
-BREWFILE_NAME="work"
 echo "Installing from $BREWFILE_NAME.brewfile"
 brew bundle install --no-lock --file "$(chezmoi source-path)/brew/$BREWFILE_NAME.brewfile"
 {{ end }}

@@ -1,4 +1,6 @@
 # Brew packages and casks for personal Mac.
+# This file will be split if I have mutiple macs in the future
+# for different use cases.
 
 brew "act"                      # For testing Github actions locally.
 brew "fzf"                      # Fuzzy search in the terminal.
