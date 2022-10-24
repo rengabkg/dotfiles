@@ -20,6 +20,7 @@ plugins=(
     zsh-syntax-highlighting
     kubectl
     rust
+    nvm
 )
 
 source $ZSH/oh-my-zsh.sh

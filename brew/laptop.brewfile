@@ -9,7 +9,6 @@ brew "gradle"
 brew "htop"
 brew "jenv"                     # For managing multiple Java installations.
 brew "neofetch"
-brew "node@16", link: true
 brew "pandoc"                   # For managing resume and CV with markdown.
 brew "protobuf"
 brew "pyenv"                    # For managing python installations.
