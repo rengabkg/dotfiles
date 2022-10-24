@@ -6,5 +6,7 @@ eval "$(jenv init -)"
 jenv enable-plugin export
 jenv enable-plugin gradle
 
-jenv global 1.8
-jenv shell 1.8
+jenv add /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+
+jenv global 17.0
+jenv shell 17.0

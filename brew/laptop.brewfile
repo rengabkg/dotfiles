@@ -42,9 +42,8 @@ cask "wkhtmltopdf"              # For HTML to PDF conversion from the terminal.
 cask "zoom"
 
 # Java installations.
-tap "adoptopenjdk/openjdk"
-cask "adoptopenjdk8"
-cask "adoptopenjdk11"           # For firebase tools.
+tap "homebrew/cask-versions"
+cask "temurin17"
 
 # For MX Master 3 mouse.
 tap "homebrew/cask-drivers"
