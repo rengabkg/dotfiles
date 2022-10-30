@@ -3,7 +3,7 @@
 # for different use cases.
 
 brew "fzf"                      # Fuzzy search in the terminal.
-brew "goenv", args: ['HEAD']    # For managing go installations.
+brew "goenv"                    # For managing go installations.
 brew "gpg"
 brew "gradle"
 brew "htop"
