@@ -20,11 +20,11 @@ cask "bitwarden"
 cask "cheatsheet"
 cask "discord"
 cask "docker"
-cask "dozer"                    # For hiding menu bar items.
 cask "firefox"
 cask "flutter"
 cask "google-chrome"            # For development.
 cask "google-cloud-sdk"
+cask "hiddenbar"                # For hiding menu bar items.
 cask "intellij-idea-ce"
 cask "kitty"
 cask "maccy"                    # Clipboard manager.
