@@ -1,7 +1,4 @@
 [user]
     name = Renga Bashyam
     email = rengabkg@protonmail.com
-    signingkey = 2582D405B2D441B1
-
-[init]
-    defaultBranch = master
+    signingkey = 88FA1AC075FCCB63

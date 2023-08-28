@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+{{ if eq .chezmoi.os "darwin" }}
+
+echo "Importing defaults for stats app"
+# {{ include "macos/defaults/stats.plist" | sha256sum }}
+defaults import eu.exelban.Stats "$(chezmoi source-path)/macos/defaults/stats.plist"
+
+{{ end }}

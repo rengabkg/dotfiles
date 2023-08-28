@@ -1,0 +1,34 @@
+brew "fzf"                      # Fuzzy search in the terminal.
+brew "gpg"
+brew "htop"
+brew "neofetch"
+brew "pandoc"                   # For managing resume and CV with markdown.
+brew "ripgrep"
+brew "wget"
+
+cask "bitwarden"
+cask "cheatsheet"
+cask "discord"
+cask "firefox"
+cask "hiddenbar"                # For hiding menu bar items.
+cask "iina"
+cask "kindle"
+cask "kitty"
+cask "logseq"
+cask "maccy"                    # Clipboard manager.
+cask "rectangle"                # Window snapping.
+cask "slack"
+cask "spotify"
+cask "stats"                    # System stats on the menu bar.
+cask "transmission"             # Torrent client.
+cask "whatsapp"
+cask "wkhtmltopdf"              # For HTML to PDF conversion from the terminal.
+
+# Fonts
+tap "homebrew/cask-fonts"
+cask "font-iosevka-slab"
+cask "font-iosevka-curly-slab"
+
+# For MX Master 3 mouse.
+tap "homebrew/cask-drivers"
+cask "logitech-options"

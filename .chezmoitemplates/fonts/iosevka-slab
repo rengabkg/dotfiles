@@ -1,4 +1,0 @@
-["{{- .fontfolder -}}/iosevka-slab"]
-    type = "archive"
-    url = "https://github.com/be5invis/Iosevka/releases/download/v{{- .version -}}/ttf-iosevka-slab-{{- .version -}}.zip"
-    exact = true

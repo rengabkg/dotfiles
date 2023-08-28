@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+{{ if eq .chezmoi.os "darwin" }}
+echo "===== Installing packages ====="
+echo "Using Homebrew as package manager."
+
+install_brewfile() {
+    echo "Installing from $1.brewfile"
+    brew bundle install --no-lock --file "$(chezmoi source-path)/macos/brew/$1.brewfile"
+}
+
+# {{ include "macos/brew/common.brewfile" | sha256sum }}
+# {{ include "macos/brew/dev.brewfile" | sha256sum }}
+install_brewfile "common"
+install_brewfile "dev"
+
+{{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
+{{ if eq $computerName "Zeus" }}
+# {{ include "macos/brew/mediaserver.brewfile" | sha256sum }}
+install_brewfile "mediaserver"
+{{ end }}
+{{ end }}
+{{ end }}

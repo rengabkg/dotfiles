@@ -1,0 +1,21 @@
+brew "goenv"                    # For managing go installations.
+brew "gradle"
+brew "jenv"                     # For managing multiple Java installations.
+brew "nvm"                      # For managing multiple node installations.
+brew "protobuf"
+brew "pyenv"                    # For managing python installations.
+brew "pyenv-virtualenv"
+
+cask "docker"
+cask "flutter"
+cask "google-cloud-sdk"
+cask "intellij-idea-ce"
+cask "visual-studio-code"
+
+# Java installations.
+tap "homebrew/cask-versions"
+cask "temurin17"
+
+# Buf for protocol buffer.
+tap "bufbuild/buf"
+brew "buf"

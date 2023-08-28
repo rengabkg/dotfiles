@@ -22,15 +22,3 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
-
-# Nvm
-[".nvm"]
-    type = "git-repo"
-    url = "https://github.com/nvm-sh/nvm.git"
-
-# Fonts
-
-{{ if eq .chezmoi.os "darwin" }}
-{{- template "fonts/iosevka-slab" dict "fontfolder" "Library/Fonts" "version" .fonts.iosevka.version -}}
-{{- template "fonts/iosevka-term-curly-slab" dict "fontfolder" "Library/Fonts" "version" .fonts.iosevka.version -}}
-{{ end }}
