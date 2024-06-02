@@ -29,3 +29,4 @@ source $ZSH/oh-my-zsh.sh
 export CLOUDSDK_PYTHON=/usr/bin/python3
 
 alias ssh="kitty +kitten ssh"
+unalias "..."
