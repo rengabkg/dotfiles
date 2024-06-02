@@ -1,6 +1,7 @@
 brew "fzf"                      # Fuzzy search in the terminal.
 brew "gpg"
 brew "htop"
+brew "mas"
 brew "neofetch"
 brew "ripgrep"
 brew "wget"
@@ -29,3 +30,8 @@ cask "font-iosevka-curly-slab"
 # For MX Master 3 mouse.
 tap "homebrew/cask-drivers"
 cask "logitech-options"
+
+# Mac App Store Applications.
+mas "Bitwarden", id: 1352778147
+mas "Numbers", id: 409203825
+mas "Prime Video", id: 545519333
