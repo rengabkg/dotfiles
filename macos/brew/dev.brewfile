@@ -1,4 +1,5 @@
 brew "bazelisk"
+brew "direnv"
 
 cask "docker"
 cask "google-cloud-sdk"
