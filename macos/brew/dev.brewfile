@@ -1,4 +1,3 @@
-brew "bazelisk"
 brew "direnv"
 
 cask "docker"
