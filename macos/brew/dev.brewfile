@@ -2,5 +2,4 @@ brew "direnv"
 
 cask "docker"
 cask "google-cloud-sdk"
-cask "intellij-idea-ce"
 cask "visual-studio-code"
