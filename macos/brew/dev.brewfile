@@ -3,3 +3,13 @@ brew "direnv"
 cask "docker"
 cask "google-cloud-sdk"
 cask "visual-studio-code"
+
+# Golang
+brew "go"
+
+# Buf
+tap "bufbuild/buf"
+brew "buf"
+
+# Node
+brew "corepack"
