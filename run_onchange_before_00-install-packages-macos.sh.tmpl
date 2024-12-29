@@ -16,10 +16,4 @@ install_brewfile() {
 install_brewfile "common"
 install_brewfile "dev"
 
-{{ with $computerName := output "scutil" "--get" "ComputerName" | trim }}
-{{ if eq $computerName "Zeus" }}
-# {{ include "macos/brew/mediaserver.brewfile" | sha256sum }}
-install_brewfile "mediaserver"
-{{ end }}
-{{ end }}
 {{ end }}

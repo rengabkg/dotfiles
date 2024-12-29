@@ -13,3 +13,7 @@ brew "buf"
 
 # Node
 brew "corepack"
+
+# Python
+brew "python"
+brew "pipx"
