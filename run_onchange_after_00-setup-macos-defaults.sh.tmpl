@@ -6,6 +6,6 @@ set -euo pipefail
 
 echo "Importing defaults for stats app"
 # {{ include "macos/defaults/stats.plist" | sha256sum }}
-defaults import eu.exelban.Stats "$(chezmoi source-path)/macos/defaults/stats.plist"
+defaults import eu.exelban.Stats ~/.local/share/chezmoi/macos/defaults/stats.plist
 
 {{ end }}
