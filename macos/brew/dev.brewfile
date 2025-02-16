@@ -1,8 +1,12 @@
 brew "direnv"
 
-cask "docker"
 cask "google-cloud-sdk"
 cask "visual-studio-code"
+
+# Podman
+brew "podman"
+brew "podman-compose"
+cask "podman-desktop"
 
 # Golang
 brew "go"
