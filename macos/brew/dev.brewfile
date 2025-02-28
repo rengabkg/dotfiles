@@ -21,3 +21,6 @@ brew "corepack"
 # Python
 brew "python"
 brew "pipx"
+
+# Fonts
+cask "font-go-mono-nerd-font"
