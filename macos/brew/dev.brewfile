@@ -17,7 +17,6 @@ brew "buf"
 brew "corepack"
 
 # Python
-brew "python"
 brew "pipx"
 
 # Fonts

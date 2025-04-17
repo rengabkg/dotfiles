@@ -8,7 +8,7 @@ echo "Using Homebrew as package manager."
 
 install_brewfile() {
     echo "Installing from $1.brewfile"
-    brew bundle install --no-lock --file "$(chezmoi source-path)/macos/brew/$1.brewfile"
+    brew bundle install --file "$(chezmoi source-path)/macos/brew/$1.brewfile"
 }
 
 # {{ include "macos/brew/common.brewfile" | sha256sum }}
