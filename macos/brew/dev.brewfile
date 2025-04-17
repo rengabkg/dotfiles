@@ -1,8 +1,7 @@
 brew "direnv"
 
 cask "google-cloud-sdk"
-cask "visual-studio-code"
-
+cask "cursor"
 
 # Docker
 cask "docker"
