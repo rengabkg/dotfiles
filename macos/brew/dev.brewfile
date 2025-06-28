@@ -4,7 +4,7 @@ cask "google-cloud-sdk"
 cask "cursor"
 
 # Docker
-cask "docker"
+cask "docker-desktop"
 
 # Golang
 brew "go"

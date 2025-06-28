@@ -14,9 +14,9 @@ cask "hiddenbar"                # For hiding menu bar items.
 cask "iina"
 cask "kindle"
 cask "kitty"
-cask "logseq"
 cask "maccy"                    # Clipboard manager.
 cask "rectangle"                # Window snapping.
+cask "sony-ps-remote-play"
 cask "stats"                    # System stats on the menu bar.
 cask "tomatobar"
 cask "transmission"             # Torrent client.
@@ -27,7 +27,6 @@ cask "font-iosevka-slab"
 cask "font-iosevka-curly-slab"
 
 # For MX Master 3 mouse.
-tap "homebrew/cask-drivers"
 cask "logitech-options"
 
 # Mac App Store Applications.
