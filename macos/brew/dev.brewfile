@@ -1,6 +1,7 @@
 brew "direnv"
 
 cask "google-cloud-sdk"
+cask "gcloud-cli"
 cask "cursor"
 
 # Docker
