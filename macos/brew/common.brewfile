@@ -6,6 +6,7 @@ brew "neofetch"
 brew "ripgrep"
 brew "wget"
 
+cask "caffeine"
 cask "cheatsheet"
 cask "discord"
 cask "firefox"
