@@ -1,8 +1,8 @@
+brew "fastfetch"
 brew "fzf"                      # Fuzzy search in the terminal.
 brew "gnupg"
 brew "htop"
 brew "mas"
-brew "neofetch"
 brew "ripgrep"
 brew "wget"
 
