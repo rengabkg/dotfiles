@@ -20,5 +20,8 @@ brew "corepack"
 # Python
 brew "pipx"
 
+# Local testing
+cask "kreya"
+
 # Fonts
 cask "font-go-mono-nerd-font"
