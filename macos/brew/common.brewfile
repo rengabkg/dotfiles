@@ -24,8 +24,7 @@ cask "transmission"             # Torrent client.
 cask "whatsapp"
 
 # Fonts.
-cask "font-iosevka-slab"
-cask "font-iosevka-curly-slab"
+cask "font-maple-mono-nf"
 
 # For MX Master 3 mouse.
 cask "logitech-options"
