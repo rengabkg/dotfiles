@@ -15,6 +15,7 @@ cask "hiddenbar"                # For hiding menu bar items.
 cask "iina"
 cask "kindle"
 cask "kitty"
+cask "logseq"
 cask "maccy"                    # Clipboard manager.
 cask "rectangle"                # Window snapping.
 cask "sony-ps-remote-play"
