@@ -1,0 +1,62 @@
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+
+" -----------------------------------------------------------------------------
+" | VIM-PLUG                                                                  |
+" -----------------------------------------------------------------------------
+call plug#begin('~/.vim/plugged')
+
+" Theme
+Plug 'morhetz/gruvbox'
+
+" File Explorer
+Plug 'preservim/nerdtree'
+
+" Fuzzy Finder
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" Status Line
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Code Completion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Git Integration
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
+
+" -----------------------------------------------------------------------------
+" | GENERAL SETTINGS                                                          |
+" -----------------------------------------------------------------------------
+set number         " Show line numbers
+set tabstop=4      " Number of spaces that a <Tab> in the file counts for
+set shiftwidth=4   " Number of spaces to use for each step of (auto)indent
+set expandtab      " Use spaces instead of tabs
+set smartindent    " Be smart about indentation
+
+
+" -----------------------------------------------------------------------------
+" | THEME & APPEARANCE                                                        |
+" -----------------------------------------------------------------------------
+set termguicolors  " Enable 24-bit RGB color in the TUI
+set background=dark
+let g:gruvbox_contrast_dark = 'medium'
+colorscheme gruvbox
+let g:airline_powerline_fonts = 1 " Use powerline symbols for airline
+
+" -----------------------------------------------------------------------------
+" | KEY MAPPINGS                                                              |
+" -----------------------------------------------------------------------------
+" NERDTree toggle
+nnoremap <C-n> :NERDTreeToggle<CR>
+
+" FZF find files
+nnoremap <C-p> :Files<CR>
