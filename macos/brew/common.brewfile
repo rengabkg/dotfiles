@@ -17,6 +17,7 @@ cask "kindle"
 cask "kitty"
 cask "logseq"
 cask "maccy"                    # Clipboard manager.
+cask "proton-mail-bridge"       # For accessign proton mail in Apple mail.
 cask "rectangle"                # Window snapping.
 cask "sony-ps-remote-play"
 cask "stats"                    # System stats on the menu bar.
