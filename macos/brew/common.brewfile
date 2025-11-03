@@ -13,7 +13,6 @@ cask "firefox"
 cask "google-chrome"
 cask "hiddenbar"                # For hiding menu bar items.
 cask "iina"
-cask "kindle"
 cask "kitty"
 cask "logseq"
 cask "maccy"                    # Clipboard manager.
@@ -34,3 +33,4 @@ cask "logitech-options"
 # Mac App Store Applications.
 mas "Bitwarden", id: 1352778147
 mas "Numbers", id: 409203825
+mas "Kindle", id: 302584613
