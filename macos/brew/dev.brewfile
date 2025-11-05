@@ -1,7 +1,11 @@
+# Misc tools
 brew "direnv"
 
+# Gcloud
 cask "google-cloud-sdk"
 cask "gcloud-cli"
+
+# IDEs
 cask "cursor"
 
 # Docker
@@ -22,6 +26,9 @@ brew "pipx"
 
 # Local testing
 cask "kreya"
+
+# Terraform
+brew "tfenv"
 
 # Fonts
 cask "font-go-mono-nerd-font"
