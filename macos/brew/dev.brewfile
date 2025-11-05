@@ -2,7 +2,6 @@
 brew "direnv"
 
 # Gcloud
-cask "google-cloud-sdk"
 cask "gcloud-cli"
 
 # IDEs
