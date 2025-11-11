@@ -5,7 +5,7 @@ brew "direnv"
 cask "gcloud-cli"
 
 # IDEs
-cask "cursor"
+cask "visual-studio-code"
 
 # Docker
 cask "docker-desktop"
