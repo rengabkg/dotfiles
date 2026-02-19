@@ -5,6 +5,7 @@ brew "direnv"
 cask "gcloud-cli"
 
 # IDEs
+cask "claude-code"
 cask "visual-studio-code"
 
 # Docker
