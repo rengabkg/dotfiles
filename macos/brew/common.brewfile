@@ -9,6 +9,7 @@ brew "wget"
 
 cask "caffeine"
 cask "cheatsheet"
+cask "claude"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
