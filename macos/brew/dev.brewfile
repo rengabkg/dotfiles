@@ -1,6 +1,9 @@
 # Misc tools
 brew "direnv"
 
+# Python
+brew "python3"
+
 # Gcloud
 cask "gcloud-cli"
 
