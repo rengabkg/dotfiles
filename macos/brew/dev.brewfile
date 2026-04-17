@@ -29,6 +29,7 @@ brew "pipx"
 
 # Local testing
 cask "kreya"
+cask "ngrok"
 
 # Terraform
 brew "tfenv"
