@@ -13,6 +13,7 @@ cask "claude"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
+cask "google-gemini"
 cask "hiddenbar"                # For hiding menu bar items.
 cask "iina"
 cask "kitty"
